@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#353131">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout"
+        android:layout_alignParentEnd="false"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentStart="true">
+    <ImageButton
+        android:layout_width="105dp"
+        android:layout_height="105dp"
+        android:id="@+id/imageButton"
+        android:background="@drawable/shape"
+        android:elevation="10dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_weight="1"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="35dp"
+        android:src="@drawable/caution" />
+
+        <ImageButton
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:id="@+id/imageButton2"
+            android:background="@drawable/shape"
+            android:elevation="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/linearLayout"
+            android:layout_toEndOf="@+id/linearLayout"
+            android:layout_weight=".5"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="35dp"
+            android:src="@drawable/transppp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/linearLayout">
+
+        <ImageButton
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:id="@+id/imageButton3"
+            android:background="@drawable/shape"
+            android:elevation="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/linearLayout"
+            android:layout_toEndOf="@+id/linearLayout"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/tra" />
+        <ImageButton
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:id="@+id/imageButton4"
+            android:background="@drawable/shape"
+            android:elevation="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/linearLayout"
+            android:layout_toEndOf="@+id/linearLayout"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/roadd" />
+    </LinearLayout>
+
+</RelativeLayout>

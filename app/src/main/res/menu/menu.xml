@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.abhishek.mapp.AMapsActivity">
+
+    <item
+        android:id="@+id/action_report"
+        android:title="Report"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_goto"
+        android:title="Goto"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/mapTypeNormal"
+        android:title="@string/map_type_Normal"/>
+    <item
+        android:id="@+id/mapTypeTerrain"
+        android:title="@string/map_type_Terrain"/>
+    <item
+        android:id="@+id/mapTypeSatellite"
+        android:title="@string/map_type_Satellite"/>
+    <item
+        android:id="@+id/mapTypeHybrid"
+        android:title="@string/map_type_Hybrid"/>
+
+    <item
+        android:id="@+id/mapmapTypeNone"
+        android:title="@string/map_type_None"/>
+</menu>

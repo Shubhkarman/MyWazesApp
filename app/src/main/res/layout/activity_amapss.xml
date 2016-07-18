@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context=".AMapsActivity.java">
+
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <EditText
+        android:layout_width="106dp"
+        android:layout_height="50dp"
+        android:hint="Search"
+        android:id="@+id/editText"
+        android:backgroundTint="#fffefe"
+            android:layout_weight="0.87" />
+    <ImageButton
+        android:layout_width="56dp"
+        android:layout_height="50dp"
+        android:id="@+id/Button"
+        android:src="@drawable/ic_dodge"
+        android:onClick="geoLocate"
+        android:background="#ffffff" />
+
+        <Button
+            android:layout_width="47dp"
+            android:layout_height="wrap_content"
+            android:text="LO"
+            android:id="@+id/logoutbutton" />
+
+        <Button
+            android:layout_width="47dp"
+            android:layout_height="wrap_content"
+            android:text="F"
+            android:id="@+id/btnreport" />
+
+
+        <Button
+            android:layout_width="52dp"
+            android:layout_height="wrap_content"
+            android:text="S"
+            android:id="@+id/button6" />
+
+    </LinearLayout>
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="479dp"
+    tools:context="com.example.abhishek.mapp.AMapsActivity"
+    tools:layout="@layout/abc_action_menu_layout" />
+</LinearLayout>

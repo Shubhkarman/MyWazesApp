@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MyWaves</string>
+    <string name="map_type_None">None</string>
+    <string name="map_type_Normal">Normal</string>
+    <string name="map_type_Terrain">Terrain</string>
+    <string name="map_type_Satellite">Satellite</string>
+    <string name="map_type_Hybrid">Hybrid</string>
+    <string name="title_activity_amaps">MyWaves</string>
+    <string name="title">(Some)</string>
+    <string name="author_name">By Shubi</string>
+    <string name="author_url">hi</string>
+    <string name="enter_name">Enter your name</string>
+    <string name="btn_join">JOIN</string>
+    <string name="btn_send">Send</string>
+    <string name="title_activity_friend_search">FriendSearch</string>
+    <string name="title_activity_goto">Goto</string>
+
+</resources>
